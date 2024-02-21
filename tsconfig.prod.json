@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.dev.json",
+  "compilerOptions": {
+    "outDir": "lib",
+    "module": "esnext",
+    "declaration": true,
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "node_modules",
+    "scripts",
+    "src/**/*test*",
+    "src/**/*stories*"
+  ]
+}

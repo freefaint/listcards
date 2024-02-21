@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "outDir": "lib",
+    "module": "esnext",
+    "target": "es5",
+    "sourceMap": false,
+    "allowJs": false,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true
+  }
+}

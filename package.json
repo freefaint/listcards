@@ -1,0 +1,30 @@
+{
+  "name": "listcards",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc --p tsconfig.prod.json",
+    "clean": "rimraf lib",
+    "build": "npm run pretty && npm run clean && npm run compile",
+    "pretty": "prettier --config prettier.json --write \"src/**/*.ts*\""
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.57",
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freefaint/listcards.git"
+  }
+}
